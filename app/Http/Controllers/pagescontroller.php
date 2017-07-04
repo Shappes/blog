@@ -1,13 +1,19 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Http\Request;
 
 class PagesController extends Controller {
+
+	public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
 	public function getIndex() {
 		return view('pages.login');
 	}
-	public function getAbout() {
+	public function getContact() {
 		$first = 'our';
 		$last = 'school';
 		$fullname = $first . " " . $last;
@@ -17,10 +23,10 @@ class PagesController extends Controller {
 		$data = [];
 		$data['fullname'] = $fullname;
 		$data['tel'] = $tel;
-		return view('pages.about')->withData($data);
+		return view('pages.contact')->withData($data);
 	}
-	public function getContact() {
-		return view('pages.contact');
+	public function getNews() {
+		return view('pages.news');
 	}
 	public function getHome() {
 		return view('pages.home');

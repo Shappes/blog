@@ -11,9 +11,9 @@
 |
 */
 Route::get('contact', 'PagesController@getContact');
-Route::get('about', 'PagesController@getAbout');
-Route::get('home', 'PagesController@getHome');
-Route::get('/', 'PagesController@getIndex');
+Route::get('news', 'PagesController@getNews');
+Route::get('home', 'HomeController@gethome');
+Route::get('login', 'PagesController@getIndex');
+Route::get('/', 'HomeController@gethome');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
