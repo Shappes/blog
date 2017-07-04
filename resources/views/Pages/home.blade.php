@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Fahrschule von Helden</title>
+        <title>Fahrschule von xxxx</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -87,8 +87,8 @@
                 <div class="links">
                     <a href="http://localhost/blog/public/home">Home</a>
                     <a href="">News</a>
-                    <a href="http://vonhelden.v72.ncsrv.de/">Website</a>
-                    <a href="http://vonhelden.v72.ncsrv.de/produkt-kategorie/shop/">Shop</a>
+                    <a href="">Website</a>
+                    <a href="">Shop</a>
                     <a href="http://localhost/blog/public/about">About us</a>
                     <a href="http://localhost/blog/public/contact">contact</a>
                 </div>
