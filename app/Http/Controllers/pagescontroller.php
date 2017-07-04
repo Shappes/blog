@@ -11,7 +11,7 @@ class PagesController extends Controller {
 		$first = 'our';
 		$last = 'school';
 		$fullname = $first . " " . $last;
-		$tel = '+49 241 93 20 95';
+		$tel = '+49 241 ';
 
 
 		$data = [];
