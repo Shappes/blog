@@ -12,8 +12,8 @@
 */
 Route::get('contact', 'PagesController@getContact');
 Route::get('news', 'PagesController@getNews');
-Route::get('home', 'HomeController@gethome');
+Route::get('home', 'HomeController@getHome');
 Route::get('login', 'PagesController@getIndex');
-Route::get('/', 'HomeController@gethome');
+Route::get('/', 'HomeController@getHome');
 Auth::routes();
 

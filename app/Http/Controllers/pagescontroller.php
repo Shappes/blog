@@ -14,16 +14,7 @@ class PagesController extends Controller {
 		return view('pages.login');
 	}
 	public function getContact() {
-		$first = 'our';
-		$last = 'school';
-		$fullname = $first . " " . $last;
-		$tel = '+49 241 ';
-
-
-		$data = [];
-		$data['fullname'] = $fullname;
-		$data['tel'] = $tel;
-		return view('pages.contact')->withData($data);
+		return view('pages.contact');
 	}
 	public function getNews() {
 		return view('pages.news');
